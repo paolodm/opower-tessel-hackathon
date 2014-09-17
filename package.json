@@ -1,0 +1,15 @@
+{
+  "name": "tessel-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ir.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ir-attx4": "^0.2.4",
+    "tessel": "^0.3.13"
+  }
+}
