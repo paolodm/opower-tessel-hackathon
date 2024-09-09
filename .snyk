@@ -1,0 +1,45 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - tessel > request > hawk:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:hawk:20160119'
+        path: tessel > request > hawk
+  'npm:http-signature:20150122':
+    - tessel > request > http-signature:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:http-signature:20150122'
+        path: tessel > request > http-signature
+  'npm:mime:20170907':
+    - tessel > request > form-data > mime:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:mime:20170907'
+        path: tessel > request > form-data > mime
+  'npm:minimatch:20160620':
+    - tessel > hardware-resolve > minimatch:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:minimatch:20160620'
+        path: tessel > hardware-resolve > minimatch
+  'npm:request:20160119':
+    - tessel > request:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:request:20160119'
+        path: tessel > request
+  'npm:semver:20150403':
+    - tessel > semver:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:semver:20150403'
+        path: tessel > semver
+  'npm:tar:20151103':
+    - tessel > tar:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:tar:20151103'
+        path: tessel > tar
+  'npm:tunnel-agent:20170305':
+    - tessel > request > tunnel-agent:
+        patched: '2024-09-09T05:23:12.745Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: tessel > request > tunnel-agent
